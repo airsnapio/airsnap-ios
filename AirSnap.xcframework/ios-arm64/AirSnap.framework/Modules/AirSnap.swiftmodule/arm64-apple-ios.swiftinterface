@@ -11,7 +11,3 @@ import UIKit
   public static func setUser(identifier: Swift.String)
   @objc deinit
 }
-public class Database {
-  public init(path: Swift.String)
-  @objc deinit
-}
