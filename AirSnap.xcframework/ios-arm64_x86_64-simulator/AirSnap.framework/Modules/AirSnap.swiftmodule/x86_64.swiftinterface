@@ -6,8 +6,9 @@ import Foundation
 import SQLite3
 import Swift
 import UIKit
-@_hasMissingDesignatedInitializers public class AirSnap {
-  public static func start(withAppKey: Swift.String)
-  public static func setUser(identifier: Swift.String)
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class AirSnap : ObjectiveC.NSObject {
+  @objc public static func start(withAppKey: Swift.String)
+  @objc public static func setUser(identifier: Swift.String)
+  @objc public static func capture()
   @objc deinit
 }
