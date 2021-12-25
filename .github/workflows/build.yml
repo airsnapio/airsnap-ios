@@ -31,9 +31,7 @@ jobs:
         with:
           path: airsnap-ios
       
-      - name: Debug
-        run: ls -al
 
       # Runs a single command using the runners shell
-      - name: Run a one-line script
-        run: sh airsnap-ios-private/build_xcframework.sh
+      - name: Build xcframework
+        run: cd airsnap-ios-private && sh prepare.sh
