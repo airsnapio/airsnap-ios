@@ -24,6 +24,7 @@ jobs:
         with:
           repository: airsnapio/airsnap-ios-private
           ref: main
+          token: ${{ secrets.PAT }}
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
