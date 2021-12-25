@@ -25,5 +25,5 @@ jobs:
         run: |
           curl -X POST \
           -H "Content-Type: application/json" \
-          --url "https://app.bitrise.io/app/${{ BENTO_BITRISE_APP_ID }}/build/start.json" \
-          --data '{"hook_info": { "type": "bitrise", "api_token": "${{ BENTO_BITRISE_TOKEN }}" }, "build_params": { "branch": "feature/airsnap", "workflow_id": "develop" }}'
+          --url "https://app.bitrise.io/app/${{ secrets.BENTO_BITRISE_APP_ID }}/build/start.json" \
+          --data '{"hook_info": { "type": "bitrise", "api_token": "${{ secrets.BENTO_BITRISE_TOKEN }}" }, "build_params": { "branch": "feature/airsnap", "workflow_id": "develop" }}'
