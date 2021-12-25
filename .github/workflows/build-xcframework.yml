@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: Build library
+name: Build xcframework
 
 # Controls when the workflow will run
 on:
@@ -34,4 +34,9 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Build xcframework
-        run: cd airsnap-ios-private && sh prepare.sh
+        run: cd airsnap-ios-private && sh prepare.sh && cd ..
+        
+      - name: Commit xcframework
+        run: cd airsnap-ios && git commit -m "Autobuild xcframework" && git push
+        
+      
