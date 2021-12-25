@@ -24,9 +24,12 @@ jobs:
         with:
           repository: airsnapio/airsnap-ios-private
           ref: main
+          path: airsnap-ios-private
           token: ${{ secrets.PAT }}
 
       - uses: actions/checkout@v2
+        with:
+          path: airsnap-ios
       
       - name: Debug
         run: ls -al
