@@ -37,6 +37,6 @@ jobs:
         run: cd airsnap-ios-private && sh prepare.sh && cd ..
         
       - name: Commit xcframework
-        run: cd airsnap-ios && git commit -m "Autobuild xcframework" && git push
+        run: cd airsnap-ios && git add . && git commit -m "Autobuild xcframework" && git push
         
       
