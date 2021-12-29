@@ -1,0 +1,43 @@
+# This is a basic workflow to help you get started with Actions
+
+name: Build xcframework
+
+# Controls when the workflow will run
+on:
+  # Listens for a repository dispatch event, triggered by external repo (ex: push from airsnap-ios-private)
+  repository_dispatch:
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: macos-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v2
+        with:
+          repository: airsnapio/airsnap-ios-private
+          ref: main
+          path: airsnap-ios-private
+          token: ${{ secrets.PAT }}
+
+      - uses: actions/checkout@v2
+        with:
+          path: airsnap-ios
+      
+
+      # Runs a single command using the runners shell
+      - name: Build xcframework
+        run: cd airsnap-ios-private && sh prepare.sh && cd ..
+        
+      - name: Commit xcframework
+        run: |
+          cd airsnap-ios && git add . && git commit -m "auto: build xcframework" && git push && cd ..
+        
+      
