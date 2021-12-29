@@ -121,7 +121,7 @@ Pod::Spec.new do |spec|
 
   # spec.library   = "iconv"
   # spec.libraries = "iconv", "xml2"
-  spec.vendored_frameworks = 'AirSnap.xcframework'
+  spec.vendored_frameworks = 'AirSnapSDK.xcframework'
   spec.static_framework = true
 
 

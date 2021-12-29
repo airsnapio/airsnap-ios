@@ -1,0 +1,4 @@
+framework module AirSnapSDK {
+  header "AirSnapSDK-Swift.h"
+  requires objc
+}
