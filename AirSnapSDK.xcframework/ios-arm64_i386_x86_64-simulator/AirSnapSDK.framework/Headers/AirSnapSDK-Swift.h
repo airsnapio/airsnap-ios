@@ -223,8 +223,8 @@ SWIFT_CLASS("_TtC10AirSnapSDK7AirSnap")
 
 
 typedef SWIFT_ENUM(NSInteger, PrivacyRule, open) {
-  PrivacyRuleMasked = 0,
-  PrivacyRuleUnmasked = 1,
+  PrivacyRuleMask = 0,
+  PrivacyRuleUnmask = 1,
 };
 
 
@@ -459,8 +459,8 @@ SWIFT_CLASS("_TtC10AirSnapSDK7AirSnap")
 
 
 typedef SWIFT_ENUM(NSInteger, PrivacyRule, open) {
-  PrivacyRuleMasked = 0,
-  PrivacyRuleUnmasked = 1,
+  PrivacyRuleMask = 0,
+  PrivacyRuleUnmask = 1,
 };
 
 
@@ -695,8 +695,8 @@ SWIFT_CLASS("_TtC10AirSnapSDK7AirSnap")
 
 
 typedef SWIFT_ENUM(NSInteger, PrivacyRule, open) {
-  PrivacyRuleMasked = 0,
-  PrivacyRuleUnmasked = 1,
+  PrivacyRuleMask = 0,
+  PrivacyRuleUnmask = 1,
 };
 
 

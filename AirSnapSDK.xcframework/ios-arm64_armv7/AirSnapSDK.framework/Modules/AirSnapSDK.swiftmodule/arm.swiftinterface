@@ -8,8 +8,8 @@ import Swift
 import UIKit
 import _Concurrency
 @objc public enum PrivacyRule : Swift.Int {
-  case masked
-  case unmasked
+  case mask
+  case unmask
   public init?(rawValue: Swift.Int)
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
@@ -17,7 +17,7 @@ import _Concurrency
   }
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class AirSnap : ObjectiveC.NSObject {
-  @objc public static func start(withAppKey: Swift.String, privacyRule: AirSnapSDK.PrivacyRule = .masked)
+  @objc public static func start(withAppKey: Swift.String, privacyRule: AirSnapSDK.PrivacyRule = .mask)
   @objc public static func stop()
   @objc public static func setUser(identifier: Swift.String)
   @objc public static func capture()

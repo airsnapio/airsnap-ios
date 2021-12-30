@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/AirSnapSDK-Swift.h</key>
 		<data>
-		jVF+2tggn8m3inufc7HgISySivs=
+		wMlfSi44OpzfRQD3zC0PCztKiN0=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -22,11 +22,11 @@
 		</data>
 		<key>Modules/AirSnapSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		8vsyU2qHM2OR9ukdE2+2cBmgaRs=
+		yay4Ho9QWJyZJnZ9mcDrbeIRGEQ=
 		</data>
 		<key>Modules/AirSnapSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		GbWz775vnV63vWUr4HoewXHrT7c=
+		XLh+0Vztot+X5f0Xv2IegjxSsqg=
 		</data>
 		<key>Modules/AirSnapSDK.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/AirSnapSDK.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		8vsyU2qHM2OR9ukdE2+2cBmgaRs=
+		yay4Ho9QWJyZJnZ9mcDrbeIRGEQ=
 		</data>
 		<key>Modules/AirSnapSDK.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		GbWz775vnV63vWUr4HoewXHrT7c=
+		XLh+0Vztot+X5f0Xv2IegjxSsqg=
 		</data>
 		<key>Modules/AirSnapSDK.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -46,11 +46,11 @@
 		</data>
 		<key>Modules/AirSnapSDK.swiftmodule/i386-apple-ios-simulator.swiftinterface</key>
 		<data>
-		lII7pnih+LWL+Elfnyp3e/b8DMI=
+		mEZhldppQtyRydyqpWsBZSHdKGk=
 		</data>
 		<key>Modules/AirSnapSDK.swiftmodule/i386-apple-ios-simulator.swiftmodule</key>
 		<data>
-		IvrHtnpFnDoJFqRqxf/7/GTQt8w=
+		lThTfg8QaCXGESg8saRcrPrKfno=
 		</data>
 		<key>Modules/AirSnapSDK.swiftmodule/i386.swiftdoc</key>
 		<data>
@@ -58,11 +58,11 @@
 		</data>
 		<key>Modules/AirSnapSDK.swiftmodule/i386.swiftinterface</key>
 		<data>
-		lII7pnih+LWL+Elfnyp3e/b8DMI=
+		mEZhldppQtyRydyqpWsBZSHdKGk=
 		</data>
 		<key>Modules/AirSnapSDK.swiftmodule/i386.swiftmodule</key>
 		<data>
-		IvrHtnpFnDoJFqRqxf/7/GTQt8w=
+		lThTfg8QaCXGESg8saRcrPrKfno=
 		</data>
 		<key>Modules/AirSnapSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -70,11 +70,11 @@
 		</data>
 		<key>Modules/AirSnapSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		fg9kTKV/ryoVbbERaweWyTTDHjw=
+		y9uYAtoIMUOlzZUdWGJDoP9g4WQ=
 		</data>
 		<key>Modules/AirSnapSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		O02q6TjoTWyCvNXAknFJhY27orE=
+		V1bYnd0unHAXM4SZLGuCxzgPo3k=
 		</data>
 		<key>Modules/AirSnapSDK.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -82,11 +82,11 @@
 		</data>
 		<key>Modules/AirSnapSDK.swiftmodule/x86_64.swiftinterface</key>
 		<data>
-		fg9kTKV/ryoVbbERaweWyTTDHjw=
+		y9uYAtoIMUOlzZUdWGJDoP9g4WQ=
 		</data>
 		<key>Modules/AirSnapSDK.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		O02q6TjoTWyCvNXAknFJhY27orE=
+		V1bYnd0unHAXM4SZLGuCxzgPo3k=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -110,11 +110,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			jVF+2tggn8m3inufc7HgISySivs=
+			wMlfSi44OpzfRQD3zC0PCztKiN0=
 			</data>
 			<key>hash2</key>
 			<data>
-			MAqfLzy8W8HKaUOgLvt89eiy6+I2JETYBCJ2OkKkn7k=
+			q7JW2rT4PO3J9Awypd8SPauONM6MGy8irVHJpoAVNkI=
 			</data>
 		</dict>
 		<key>Modules/AirSnapSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -132,22 +132,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			8vsyU2qHM2OR9ukdE2+2cBmgaRs=
+			yay4Ho9QWJyZJnZ9mcDrbeIRGEQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			kaITSCHEtOQ9h7AUUxFyaY+GAYcZBtKR7rXNlZvecZk=
+			HzphITotoYVk1XFc8kHfWpvh8MGZfgny6HeOZBIjJ2w=
 			</data>
 		</dict>
 		<key>Modules/AirSnapSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			GbWz775vnV63vWUr4HoewXHrT7c=
+			XLh+0Vztot+X5f0Xv2IegjxSsqg=
 			</data>
 			<key>hash2</key>
 			<data>
-			BX0b4OxaoWGs37g13nV2L5AtYKoTh0y6xXe7CwffNys=
+			yOn0eMW+ESXelkBOoKAQv2rLsBIde/J7X2blUwHo3xU=
 			</data>
 		</dict>
 		<key>Modules/AirSnapSDK.swiftmodule/arm64.swiftdoc</key>
@@ -165,22 +165,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			8vsyU2qHM2OR9ukdE2+2cBmgaRs=
+			yay4Ho9QWJyZJnZ9mcDrbeIRGEQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			kaITSCHEtOQ9h7AUUxFyaY+GAYcZBtKR7rXNlZvecZk=
+			HzphITotoYVk1XFc8kHfWpvh8MGZfgny6HeOZBIjJ2w=
 			</data>
 		</dict>
 		<key>Modules/AirSnapSDK.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			GbWz775vnV63vWUr4HoewXHrT7c=
+			XLh+0Vztot+X5f0Xv2IegjxSsqg=
 			</data>
 			<key>hash2</key>
 			<data>
-			BX0b4OxaoWGs37g13nV2L5AtYKoTh0y6xXe7CwffNys=
+			yOn0eMW+ESXelkBOoKAQv2rLsBIde/J7X2blUwHo3xU=
 			</data>
 		</dict>
 		<key>Modules/AirSnapSDK.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
@@ -198,22 +198,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			lII7pnih+LWL+Elfnyp3e/b8DMI=
+			mEZhldppQtyRydyqpWsBZSHdKGk=
 			</data>
 			<key>hash2</key>
 			<data>
-			FdqTQMiTh5/6qpoGe9FTSPEYr5i6kB4Af23pP3JSCKY=
+			kW3GPWdG9vAL0H3XlhI4ei9jvya3HihDpiU6QOqFAZ4=
 			</data>
 		</dict>
 		<key>Modules/AirSnapSDK.swiftmodule/i386-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			IvrHtnpFnDoJFqRqxf/7/GTQt8w=
+			lThTfg8QaCXGESg8saRcrPrKfno=
 			</data>
 			<key>hash2</key>
 			<data>
-			qCpGM3WWNrTWMd0idXKNf4rqk0/Oa/leYXMcfBWHL/0=
+			UD5bmHrguyKzotmzAN8QdTdI72uPTrpABVkwhU39CoY=
 			</data>
 		</dict>
 		<key>Modules/AirSnapSDK.swiftmodule/i386.swiftdoc</key>
@@ -231,22 +231,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			lII7pnih+LWL+Elfnyp3e/b8DMI=
+			mEZhldppQtyRydyqpWsBZSHdKGk=
 			</data>
 			<key>hash2</key>
 			<data>
-			FdqTQMiTh5/6qpoGe9FTSPEYr5i6kB4Af23pP3JSCKY=
+			kW3GPWdG9vAL0H3XlhI4ei9jvya3HihDpiU6QOqFAZ4=
 			</data>
 		</dict>
 		<key>Modules/AirSnapSDK.swiftmodule/i386.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			IvrHtnpFnDoJFqRqxf/7/GTQt8w=
+			lThTfg8QaCXGESg8saRcrPrKfno=
 			</data>
 			<key>hash2</key>
 			<data>
-			qCpGM3WWNrTWMd0idXKNf4rqk0/Oa/leYXMcfBWHL/0=
+			UD5bmHrguyKzotmzAN8QdTdI72uPTrpABVkwhU39CoY=
 			</data>
 		</dict>
 		<key>Modules/AirSnapSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -264,22 +264,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			fg9kTKV/ryoVbbERaweWyTTDHjw=
+			y9uYAtoIMUOlzZUdWGJDoP9g4WQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			i3TlppCnAIvAz0ZrGr642QyiVZ+tp+zUFldU7VaD/Uw=
+			ajxOUN9kQXkTr/Sjx7ICLcTQhSGZ/oggakPu80pQiSA=
 			</data>
 		</dict>
 		<key>Modules/AirSnapSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			O02q6TjoTWyCvNXAknFJhY27orE=
+			V1bYnd0unHAXM4SZLGuCxzgPo3k=
 			</data>
 			<key>hash2</key>
 			<data>
-			X34FD5B+Mo6Id00jJRhh6SjtPOpXYRhrVUiIELLdrvQ=
+			+0skNY/HTbpewR46upvOPb5JzOmrfILifUBrIeVfqN4=
 			</data>
 		</dict>
 		<key>Modules/AirSnapSDK.swiftmodule/x86_64.swiftdoc</key>
@@ -297,22 +297,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			fg9kTKV/ryoVbbERaweWyTTDHjw=
+			y9uYAtoIMUOlzZUdWGJDoP9g4WQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			i3TlppCnAIvAz0ZrGr642QyiVZ+tp+zUFldU7VaD/Uw=
+			ajxOUN9kQXkTr/Sjx7ICLcTQhSGZ/oggakPu80pQiSA=
 			</data>
 		</dict>
 		<key>Modules/AirSnapSDK.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			O02q6TjoTWyCvNXAknFJhY27orE=
+			V1bYnd0unHAXM4SZLGuCxzgPo3k=
 			</data>
 			<key>hash2</key>
 			<data>
-			X34FD5B+Mo6Id00jJRhh6SjtPOpXYRhrVUiIELLdrvQ=
+			+0skNY/HTbpewR46upvOPb5JzOmrfILifUBrIeVfqN4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
