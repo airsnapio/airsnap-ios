@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "AirSnap"
-  spec.version      = "0.0.7"
+  spec.version      = "0.1.0"
   spec.summary      = "AirSnap library for iOS."
 
   # This description is used to generate tags and improve search results.
@@ -27,7 +27,7 @@ Pod::Spec.new do |spec|
   # spec.description  = <<-DESC
   #                  DESC
 
-  spec.homepage     = "https://github.com/airsnapio"
+  spec.homepage     = "https://github.com/airsnapio/airsnap-ios"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
