@@ -1,12 +1,6 @@
 // swift-interface-format-version: 1.0
-<<<<<<< HEAD:AirSnapSDK.xcframework/ios-arm64_i386_x86_64-simulator/AirSnapSDK.framework/Modules/AirSnapSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface
-// swift-compiler-version: Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)
-// swift-module-flags: -target arm64-apple-ios10.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name AirSnapSDK
-=======
 // swift-compiler-version: Apple Swift version 5.5.1 (swiftlang-1300.0.31.4 clang-1300.0.29.6)
-// swift-module-flags: -target arm64-apple-ios10.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name AirSnap
-@_exported import AirSnap
->>>>>>> 7ef91e5fbf63cccfcafdcce83ba3d9c3392f237e:AirSnap.xcframework/ios-arm64_i386_x86_64-simulator/AirSnap.framework/Modules/AirSnap.swiftmodule/arm64-apple-ios-simulator.swiftinterface
+// swift-module-flags: -target arm64-apple-ios10.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name AirSnapSDK
 import CommonCrypto
 import Foundation
 import SQLite3
@@ -14,8 +8,8 @@ import Swift
 import UIKit
 import _Concurrency
 @objc public enum PrivacyRule : Swift.Int {
-  case masked
-  case unmasked
+  case mask
+  case unmask
   public init?(rawValue: Swift.Int)
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
@@ -23,7 +17,7 @@ import _Concurrency
   }
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class AirSnap : ObjectiveC.NSObject {
-  @objc public static func start(withAppKey: Swift.String, privacyRule: AirSnapSDK.PrivacyRule = .masked)
+  @objc public static func start(withAppKey: Swift.String, privacyRule: AirSnapSDK.PrivacyRule = .mask)
   @objc public static func stop()
   @objc public static func setUser(identifier: Swift.String)
   @objc public static func capture()
