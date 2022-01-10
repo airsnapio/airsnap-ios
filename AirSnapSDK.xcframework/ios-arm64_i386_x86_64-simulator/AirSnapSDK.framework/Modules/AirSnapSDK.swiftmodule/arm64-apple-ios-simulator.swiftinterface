@@ -17,9 +17,15 @@ import _Concurrency
   }
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class AirSnap : ObjectiveC.NSObject {
+  @objc public static var sessionId: Swift.String? {
+    @objc get
+  }
+  @objc public static var userId: Swift.String {
+    @objc get
+  }
   @objc public static func start(withAppKey: Swift.String, privacyRule: AirSnapSDK.PrivacyRule = .mask)
   @objc public static func stop()
-  @objc public static func setUser(identifier: Swift.String)
+  @objc public static func setUser(id: Swift.String?)
   @objc public static func capture()
   @objc deinit
 }

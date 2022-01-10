@@ -213,11 +213,15 @@ enum PrivacyRule : NSInteger;
 
 SWIFT_CLASS("_TtC10AirSnapSDK7AirSnap")
 @interface AirSnap : NSObject
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nullable sessionId;)
++ (NSString * _Nullable)sessionId SWIFT_WARN_UNUSED_RESULT;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull userId;)
++ (NSString * _Nonnull)userId SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 + (void)startWithAppKey:(NSString * _Nonnull)withAppKey privacyRule:(enum PrivacyRule)privacyRule;
 + (void)stop;
-+ (void)setUserWithIdentifier:(NSString * _Nonnull)identifier;
++ (void)setUserWithId:(NSString * _Nullable)id;
 + (void)capture;
 @end
 
@@ -449,11 +453,15 @@ enum PrivacyRule : NSInteger;
 
 SWIFT_CLASS("_TtC10AirSnapSDK7AirSnap")
 @interface AirSnap : NSObject
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nullable sessionId;)
++ (NSString * _Nullable)sessionId SWIFT_WARN_UNUSED_RESULT;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull userId;)
++ (NSString * _Nonnull)userId SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 + (void)startWithAppKey:(NSString * _Nonnull)withAppKey privacyRule:(enum PrivacyRule)privacyRule;
 + (void)stop;
-+ (void)setUserWithIdentifier:(NSString * _Nonnull)identifier;
++ (void)setUserWithId:(NSString * _Nullable)id;
 + (void)capture;
 @end
 
