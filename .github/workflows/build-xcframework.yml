@@ -38,6 +38,6 @@ jobs:
         
       - name: Commit xcframework
         run: |
-          cd airsnap-ios && git add . && git commit -m "auto: build xcframework" && git push && cd ..
+          cd airsnap-ios && git add . && git commit -m "${{ github.event.client_payload.message }}" && git push && cd ..
         
       
