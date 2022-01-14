@@ -40,6 +40,6 @@ jobs:
           cd airsnap-ios-private
           message=$(git log -1 --pretty=%B)
           cd ..
-          cd airsnap-ios && git add . && git commit -m $message && git push && cd ..
+          cd airsnap-ios && git add . && git commit -m "$message" && git push && cd ..
         
       
