@@ -30,7 +30,12 @@ jobs:
       - uses: actions/checkout@v2
         with:
           path: airsnap-ios
-      
+          
+      - name: Retrieve commit message
+        run: |
+          cd airsnap-ios-private
+          message=$(git log -1 --pretty=%B)
+          cd ..
 
       # Runs a single command using the runners shell
       - name: Build xcframework
@@ -38,6 +43,6 @@ jobs:
         
       - name: Commit xcframework
         run: |
-          cd airsnap-ios && git add . && git commit -m "${{ github.event.client_payload.message }}" && git push && cd ..
+          cd airsnap-ios && git add . && git commit -m $message && git push && cd ..
         
       
