@@ -1,0 +1,36 @@
+CREATE TABLE IF NOT EXISTS 'session' (
+id TEXT PRIMARY KEY NOT NULL,
+fps INT NOT NULL,
+duration REAL DEFAULT 0,
+startedAt INT NOT NULL,
+synced INT DEFAULT 0
+);
+
+CREATE TABLE IF NOT EXISTS 'session_frames' (
+id TEXT PRIMARY KEY NOT NULL,
+sessionId TEXT NOT NULL,
+startedAt INT NOT NULL,
+objectKey TEXT,
+uploaded INT DEFAULT 0,
+synced INT DEFAULT 0
+);
+
+CREATE TABLE IF NOT EXISTS 'session_event' (
+id TEXT PRIMARY KEY NOT NULL,
+sessionId TEXT NOT NULL,
+type TEXT NOT NULL,
+data TEXT NOT NULL,
+triggeredAt INT NOT NULL,
+synced INT DEFAULT 0
+);
+
+CREATE TABLE IF NOT EXISTS 'font' (
+id INTEGER PRIMARY KEY AUTOINCREMENT,
+name TEXT NOT NULL,
+fileName TEXT NOT NULL,
+checksum TEXT NOT NULL,
+objectKey TEXT,
+uploaded INT DEFAULT 0,
+synced INT DEFAULT 0,
+UNIQUE(name, checksum)
+);
