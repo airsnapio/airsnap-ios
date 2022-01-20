@@ -4,14 +4,6 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>20220117005248_initial.sql</key>
-		<data>
-		9gHtM87+OPq7S5/QaSJ6F4yGI2s=
-		</data>
-		<key>20220118010033_add_user_id.sql</key>
-		<data>
-		7Ab2LTzxMd+3xAyB3Ia478BIbpw=
-		</data>
 		<key>Headers/AirSnap.h</key>
 		<data>
 		ogM83gduya8gnaIwIeO05XQCJow=
@@ -34,7 +26,7 @@
 		</data>
 		<key>Modules/AirSnapSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		PCQvX9QVAqhOjh42ZHO2YZYTYdY=
+		8kFgHAVbKYETaFSWBZly0URUj0U=
 		</data>
 		<key>Modules/AirSnapSDK.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -46,7 +38,7 @@
 		</data>
 		<key>Modules/AirSnapSDK.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		PCQvX9QVAqhOjh42ZHO2YZYTYdY=
+		8kFgHAVbKYETaFSWBZly0URUj0U=
 		</data>
 		<key>Modules/AirSnapSDK.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -58,7 +50,7 @@
 		</data>
 		<key>Modules/AirSnapSDK.swiftmodule/i386-apple-ios-simulator.swiftmodule</key>
 		<data>
-		L30Dp6RNhjH1/8h+Ak3SBkBn+Ig=
+		MTLn7efpTa9tkBhSRnnrQnwzBiA=
 		</data>
 		<key>Modules/AirSnapSDK.swiftmodule/i386.swiftdoc</key>
 		<data>
@@ -70,7 +62,7 @@
 		</data>
 		<key>Modules/AirSnapSDK.swiftmodule/i386.swiftmodule</key>
 		<data>
-		L30Dp6RNhjH1/8h+Ak3SBkBn+Ig=
+		MTLn7efpTa9tkBhSRnnrQnwzBiA=
 		</data>
 		<key>Modules/AirSnapSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -82,7 +74,7 @@
 		</data>
 		<key>Modules/AirSnapSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		lYvZjTxKaqXaL7R86PFT9GdNnHk=
+		oUfySMwynBZqooYr9jJ3/YigCmw=
 		</data>
 		<key>Modules/AirSnapSDK.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -94,7 +86,7 @@
 		</data>
 		<key>Modules/AirSnapSDK.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		lYvZjTxKaqXaL7R86PFT9GdNnHk=
+		oUfySMwynBZqooYr9jJ3/YigCmw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -103,28 +95,6 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>20220117005248_initial.sql</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			9gHtM87+OPq7S5/QaSJ6F4yGI2s=
-			</data>
-			<key>hash2</key>
-			<data>
-			74xPP1njq7CTRktX+Ly54S30l/ma7mnw4YFPTZk6vE0=
-			</data>
-		</dict>
-		<key>20220118010033_add_user_id.sql</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			7Ab2LTzxMd+3xAyB3Ia478BIbpw=
-			</data>
-			<key>hash2</key>
-			<data>
-			V+rmld8l24TUfjxuu+qf+Hp78ta3PHb/eC3SID0SGSk=
-			</data>
-		</dict>
 		<key>Headers/AirSnap.h</key>
 		<dict>
 			<key>hash</key>
@@ -173,11 +143,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			PCQvX9QVAqhOjh42ZHO2YZYTYdY=
+			8kFgHAVbKYETaFSWBZly0URUj0U=
 			</data>
 			<key>hash2</key>
 			<data>
-			1Ne/5m3QepMi/kJXbSpBA3NDJCTQukHWYr1rVyPm+NQ=
+			bM6e/yfEAwVf0zuS1JqoHWB7alRi5aYIS0A6DXYQ8rE=
 			</data>
 		</dict>
 		<key>Modules/AirSnapSDK.swiftmodule/arm64.swiftdoc</key>
@@ -206,11 +176,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			PCQvX9QVAqhOjh42ZHO2YZYTYdY=
+			8kFgHAVbKYETaFSWBZly0URUj0U=
 			</data>
 			<key>hash2</key>
 			<data>
-			1Ne/5m3QepMi/kJXbSpBA3NDJCTQukHWYr1rVyPm+NQ=
+			bM6e/yfEAwVf0zuS1JqoHWB7alRi5aYIS0A6DXYQ8rE=
 			</data>
 		</dict>
 		<key>Modules/AirSnapSDK.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
@@ -239,11 +209,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			L30Dp6RNhjH1/8h+Ak3SBkBn+Ig=
+			MTLn7efpTa9tkBhSRnnrQnwzBiA=
 			</data>
 			<key>hash2</key>
 			<data>
-			4MAM14LmhYJuALd0zYs94hDq3P79msWSPVyPaJI667Q=
+			0yFv+wBU5+vGS4h3m3tDGEzmS7xkS/vQIS7az3AfULc=
 			</data>
 		</dict>
 		<key>Modules/AirSnapSDK.swiftmodule/i386.swiftdoc</key>
@@ -272,11 +242,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			L30Dp6RNhjH1/8h+Ak3SBkBn+Ig=
+			MTLn7efpTa9tkBhSRnnrQnwzBiA=
 			</data>
 			<key>hash2</key>
 			<data>
-			4MAM14LmhYJuALd0zYs94hDq3P79msWSPVyPaJI667Q=
+			0yFv+wBU5+vGS4h3m3tDGEzmS7xkS/vQIS7az3AfULc=
 			</data>
 		</dict>
 		<key>Modules/AirSnapSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -305,11 +275,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			lYvZjTxKaqXaL7R86PFT9GdNnHk=
+			oUfySMwynBZqooYr9jJ3/YigCmw=
 			</data>
 			<key>hash2</key>
 			<data>
-			QFeJEEZ5IMCIWvkymhlBc9kcE31v5424TiU7H+8WxMk=
+			uhTU+9ACHLugLKH2mr8QuBjI/C8K+KaclfWquhYG9cE=
 			</data>
 		</dict>
 		<key>Modules/AirSnapSDK.swiftmodule/x86_64.swiftdoc</key>
@@ -338,11 +308,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			lYvZjTxKaqXaL7R86PFT9GdNnHk=
+			oUfySMwynBZqooYr9jJ3/YigCmw=
 			</data>
 			<key>hash2</key>
 			<data>
-			QFeJEEZ5IMCIWvkymhlBc9kcE31v5424TiU7H+8WxMk=
+			uhTU+9ACHLugLKH2mr8QuBjI/C8K+KaclfWquhYG9cE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
