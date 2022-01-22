@@ -12,9 +12,7 @@ let package = Package(
             targets: ["AirSnap"]),
     ],
     targets: [
-        .target(
-            name: "AirSnap"
-        )
+
         .binaryTarget(
             name: "AirSnap",
             path: "AirSnapSDK.xcframework"
