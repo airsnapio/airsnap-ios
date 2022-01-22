@@ -9,9 +9,12 @@ let package = Package(
     products: [
         .library(
             name: "AirSnap",
-            targets: ["AirSnapSDK"]),
+            targets: ["AirSnap"]),
     ],
     targets: [
+        .target(
+            name: "AirSnap"
+        )
         .binaryTarget(
             name: "AirSnap",
             path: "AirSnapSDK.xcframework"
