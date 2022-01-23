@@ -26,8 +26,11 @@ import _Concurrency
   @objc public static func start(withAppKey: Swift.String, privacyRule: AirSnapSDK.PrivacyRule = .mask)
   @objc public static func stop()
   @objc public static func setUser(id: Swift.String?)
-  @objc public static func capture()
+  public static func captureException(issue: AirSnapSDK.IssueInput, level: Swift.String = "error", context: [Swift.String : ObjectiveC.NSObject]? = nil)
   @objc deinit
+}
+public struct IssueInput {
+  public init(platform: Swift.String, summary: Swift.String, data: [Swift.String : ObjectiveC.NSObject]? = nil)
 }
 extension AirSnapSDK.PrivacyRule : Swift.Equatable {}
 extension AirSnapSDK.PrivacyRule : Swift.Hashable {}

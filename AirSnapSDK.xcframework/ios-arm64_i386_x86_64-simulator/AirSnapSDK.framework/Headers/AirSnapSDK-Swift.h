@@ -222,7 +222,6 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _No
 + (void)startWithAppKey:(NSString * _Nonnull)withAppKey privacyRule:(enum PrivacyRule)privacyRule;
 + (void)stop;
 + (void)setUserWithId:(NSString * _Nullable)id;
-+ (void)capture;
 @end
 
 
@@ -462,7 +461,6 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _No
 + (void)startWithAppKey:(NSString * _Nonnull)withAppKey privacyRule:(enum PrivacyRule)privacyRule;
 + (void)stop;
 + (void)setUserWithId:(NSString * _Nullable)id;
-+ (void)capture;
 @end
 
 
@@ -702,7 +700,6 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _No
 + (void)startWithAppKey:(NSString * _Nonnull)withAppKey privacyRule:(enum PrivacyRule)privacyRule;
 + (void)stop;
 + (void)setUserWithId:(NSString * _Nullable)id;
-+ (void)capture;
 @end
 
 
