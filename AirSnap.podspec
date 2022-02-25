@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "AirSnap"
-  spec.version      = "0.2.3"
+  spec.version      = "0.2.4"
   spec.summary      = "AirSnap library for iOS."
 
   # This description is used to generate tags and improve search results.
@@ -134,8 +134,4 @@ Pod::Spec.new do |spec|
   # spec.requires_arc = true
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  # spec.dependency "JSONKit", "~> 1.4"
-  # spec.dependency "Socket.IO-Client-Swift", '~> 16.0.1'
-  # spec.dependency "GRDB.swift"
-  # spec.dependency "SwiftProtobuf"
 end
